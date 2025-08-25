@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce AI Assistant Case Study - Brisko AI</title>
+    <meta name="description" content="How we built an AI assistant that increased e-commerce conversions by 18% and reduced support tickets by 34%.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="E-commerce AI Assistant Case Study - Brisko AI">
+    <meta property="og:description" content="AI assistant that increased conversions by 18% and reduced support tickets by 34%.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://brisko-ai.com/cases/retail-assistant.html">
+    <meta property="og:image" content="https://brisko-ai.com/assets/img/case-retail-detail.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/styles.css">
+    
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "E-commerce AI Assistant Case Study",
+        "description": "AI assistant that increased conversions by 18% and reduced support tickets by 34%",
+        "author": {"@type": "Organization", "name": "Brisko AI"},
+        "publisher": {"@type": "Organization", "name": "Brisko AI"},
+        "datePublished": "2024-12-01",
+        "url": "https://brisko-ai.com/cases/retail-assistant.html"
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <img src="/assets/logo.svg" alt="Brisko AI" class="logo">
+                <span class="brand-text">Brisko AI</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/services.html" class="nav-link">Services</a>
+                <a href="/case-studies.html" class="nav-link active">Case Studies</a>
+                <a href="/about.html" class="nav-link">About</a>
+                <a href="/blog.html" class="nav-link">Blog</a>
+                <a href="/contact.html" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <a href="https://cal.com/brisko/15min" class="btn btn-primary">Book a Call</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="case-detail-hero">
+            <div class="container">
+                <nav class="breadcrumb">
+                    <a href="/case-studies.html">Case Studies</a>
+                    <span>E-commerce AI Assistant</span>
+                </nav>
+                <h1 class="case-detail-title">E-commerce AI Assistant Increases Conversions by 18%</h1>
+                <p class="case-detail-subtitle">How we built an intelligent shopping assistant that transformed customer experience and drove significant revenue growth.</p>
+                <div class="case-detail-meta">
+                    <div class="case-meta-item">
+                        <span class="meta-label">Industry</span>
+                        <span class="meta-value">E-commerce</span>
+                    </div>
+                    <div class="case-meta-item">
+                        <span class="meta-label">Timeline</span>
+                        <span class="meta-value">8 weeks</span>
+                    </div>
+                    <div class="case-meta-item">
+                        <span class="meta-label">Team Size</span>
+                        <span class="meta-value">3 specialists</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-detail-content">
+            <div class="container">
+                <div class="case-detail-grid">
+                    <div class="case-main-content">
+                        <div class="content-section">
+                            <h2>The Challenge</h2>
+                            <p>RetailMax, a mid-size e-commerce company, was struggling with high cart abandonment rates (68%) and overwhelming customer support volume. Their existing help desk couldn't keep up with product questions, sizing inquiries, and general shopping assistance.</p>
+                            <p>Key pain points included:</p>
+                            <ul>
+                                <li>Long response times for customer inquiries (avg. 4-6 hours)</li>
+                                <li>Inconsistent product recommendations</li>
+                                <li>High cart abandonment during decision-making</li>
+                                <li>Support team overwhelmed with routine questions</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-section">
+                            <h2>Our Approach</h2>
+                            <p>We designed and implemented a comprehensive AI assistant that combines natural language processing with their existing product catalog and customer data.</p>
+                            
+                            <h3>Technical Stack</h3>
+                            <div class="tech-stack">
+                                <span class="tech-item">OpenAI GPT-4</span>
+                                <span class="tech-item">React.js</span>
+                                <span class="tech-item">Node.js</span>
+                                <span class="tech-item">MongoDB</span>
+                                <span class="tech-item">Stripe API</span>
+                                <span class="tech-item">Shopify API</span>
+                            </div>
+
+                            <h3>Key Features Implemented</h3>
+                            <ul>
+                                <li><strong>Intelligent Product Recommendations:</strong> AI analyzes browsing behavior and preferences to suggest relevant products</li>
+                                <li><strong>Real-time Chat Support:</strong> Instant answers to sizing, shipping, and product questions</li>
+                                <li><strong>Abandoned Cart Recovery:</strong> Proactive outreach when customers hesitate at checkout</li>
+                                <li><strong>Visual Search:</strong> Customers can upload images to find similar products</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-section">
+                            <h2>Results & Impact</h2>
+                            <div class="results-grid">
+                                <div class="result-card">
+                                    <span class="result-number">+18%</span>
+                                    <span class="result-label">Conversion Rate</span>
+                                    <p class="result-description">From 2.3% to 2.7% across all traffic sources</p>
+                                </div>
+                                <div class="result-card">
+                                    <span class="result-number">−34%</span>
+                                    <span class="result-label">Support Tickets</span>
+                                    <p class="result-description">AI handles 80% of routine inquiries automatically</p>
+                                </div>
+                                <div class="result-card">
+                                    <span class="result-number">$2.3M</span>
+                                    <span class="result-label">Revenue Impact</span>
+                                    <p class="result-description">Additional revenue in first 6 months</p>
+                                </div>
+                                <div class="result-card">
+                                    <span class="result-number">−68%</span>
+                                    <span class="result-label">Cart Abandonment</span>
+                                    <p class="result-description">Proactive assistance reduces hesitation</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-section">
+                            <h2>Client Testimonial</h2>
+                            <blockquote class="testimonial-quote">
+                                <p>"The AI assistant has completely transformed our customer experience. What used to take hours of back-and-forth now happens instantly. Our customers are happier, our team is more productive, and our revenue has grown significantly."</p>
+                                <footer>
+                                    <cite>
+                                        <strong>Jennifer Walsh</strong><br>
+                                        VP of Digital Experience, RetailMax
+                                    </cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="case-sidebar">
+                        <div class="sidebar-card">
+                            <h3>Project Summary</h3>
+                            <div class="summary-item">
+                                <span class="summary-label">Client</span>
+                                <span class="summary-value">RetailMax</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-label">Industry</span>
+                                <span class="summary-value">E-commerce</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-label">Project Type</span>
+                                <span class="summary-value">AI Chatbot & Recommendations</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-label">Timeline</span>
+                                <span class="summary-value">8 weeks</span>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-label">Team</span>
+                                <span class="summary-value">3 specialists</span>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-card">
+                            <h3>Ready for Similar Results?</h3>
+                            <p>Let's discuss how an AI assistant could transform your customer experience.</p>
+                            <a href="https://cal.com/brisko/15min" class="btn btn-primary btn-block">Schedule a Call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="/assets/logo.svg" alt="Brisko AI" class="footer-logo">
+                    <span class="footer-brand-text">Brisko AI</span>
+                    <p class="footer-description">AI systems and automation that compound your growth.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Services</h4>
+                        <a href="/services.html#ai-systems" class="footer-link">AI Systems</a>
+                        <a href="/services.html#chatbots" class="footer-link">Chatbots & Voice</a>
+                        <a href="/services.html#automation" class="footer-link">Workflow Automation</a>
+                        <a href="/services.html#consulting" class="footer-link">AI Consulting</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Company</h4>
+                        <a href="/about.html" class="footer-link">About</a>
+                        <a href="/case-studies.html" class="footer-link">Case Studies</a>
+                        <a href="/blog.html" class="footer-link">Blog</a>
+                        <a href="/contact.html" class="footer-link">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Connect</h4>
+                        <a href="https://cal.com/brisko/15min" class="footer-link">Book a Call</a>
+                        <a href="mailto:hello@brisko-ai.com" class="footer-link">hello@brisko-ai.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Brisko AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/main.js"></script>
+</body>
+</html>
