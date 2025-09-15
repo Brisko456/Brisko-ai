@@ -411,4 +411,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }; 
 })(window, "https://app.cal.com/embed/embed.js", "init");
 
-Cal("init", "brisko", {origin:"https://cal.com"});
+Cal("init", "brisko/board-room-a", {origin:"https://cal.com"});
