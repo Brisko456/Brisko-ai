@@ -380,13 +380,17 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Cal.com embed script
-// Simple Cal.com integration - no complex embed needed for basic links
+// Cal.com integration - direct links only (no iframe embedding)
 // All booking links go directly to https://cal.com/brisko/board-room-a
 
-// Optional: Add click tracking for Cal.com links
+// Add click tracking and external link handling for Cal.com links
 document.addEventListener('DOMContentLoaded', () => {
   const calLinks = document.querySelectorAll('a[href*="cal.com"]');
   calLinks.forEach(link => {
+    // Ensure external links open in new tab
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+    
     link.addEventListener('click', () => {
       // Optional: Add analytics tracking here
       console.log('Cal.com booking link clicked');

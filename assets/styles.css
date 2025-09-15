@@ -1741,9 +1741,22 @@ blockquote {
   background: var(--bg-tertiary);
 }
 
-.scheduler-embed {
+.scheduler-cta {
+  text-align: center;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.scheduler-description {
+  font-size: var(--font-size-lg);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-8);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scheduler-embed {
   background: var(--bg-secondary);
   border-radius: var(--border-radius-xl);
   overflow: hidden;
